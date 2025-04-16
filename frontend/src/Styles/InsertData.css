@@ -1,0 +1,59 @@
+.insert-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .insert-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .insert-container h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 28px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  p {
+    color: #e74c3c;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .insert-container {
+      padding: 20px;
+      margin: 40px 15px;
+    }
+  
+    button {
+      padding: 10px 22px;
+      font-size: 15px;
+    }
+  }
+  
