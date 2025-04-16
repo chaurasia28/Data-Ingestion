@@ -1,0 +1,7 @@
+🤖 How AI Helped in Development
+1. I leveraged AI to break down complex requirements into manageable modules, including CSV parsing, seamless integration with ClickHouse, and smooth frontend-backend communication between my Java Spring Boot backend and React frontend. This helped in organizing the development process effectively.
+2. To better understand how JDBC interacts with ClickHouse and to follow best practices for handling large file uploads in Spring Boot, I used AI to research and optimize backend configuration for performance and security.
+3. AI contributed significantly in enhancing the structure and readability of my React components and improving API error handling. This not only improved user experience but also boosted code maintainability and scalability.
+4. During the design of the data import/export workflow, AI helped streamline the process—for example, by implementing a preview-before-upload feature—which was later validated by peers for its usability and user-friendliness.
+5. For advanced backend functionalities like automatic table creation in ClickHouse and secure handling of large files, I consulted AI to validate the implementation against industry standards, ensuring robust error handling and security coverage for edge cases.
+6. While I personally wrote the core README content, AI helped me refine the language, clarify technical descriptions, and ensure the documentation remained clear, concise, and user-friendly for developers of all skill levels.

@@ -1,0 +1,81 @@
+/* Center the form in the middle of the screen */
+.container {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headline styling */
+  .container h2 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  /* Input fields */
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Label */
+  .container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Button */
+  .container button {
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert messages */
+  .alert {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .alert-danger {
+    background-color: #ffe5e5;
+    color: #d8000c;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .alert-success {
+    background-color: #e7f5e6;
+    color: #3c763d;
+    border: 1px solid #c3e6cb;
+  }
+  

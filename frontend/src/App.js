@@ -4,12 +4,18 @@ import Home from './components/Home';
 import CsvUpload from './components/CsvUpload';
 import DataPreview from './components/DataPreview';
 import InsertData from './components/InsertData';
+import Login from './components/Login';
+import Register from './components/Register';
+
 
 function App() {
+  
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} /> */}
+        <Route path="/" element={<Home />} /> 
         <Route path="/csv-upload" element={<CsvUpload />} />
         <Route path="/data-preview" element={<DataPreview />} />
         <Route path="/insert-data" element={<InsertData />} />
